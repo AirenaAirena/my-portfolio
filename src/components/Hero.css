@@ -1,0 +1,89 @@
+.hero-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 0 40px;
+  overflow: hidden;
+  color: white;
+}
+
+.hero-left {
+  width: 50%;
+  animation: slideInLeft 2s forwards;
+}
+
+.hero-line {
+  font-size: 75px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  opacity: 0;
+  animation: textSlideIn 2s forwards;
+}
+
+.hero-block {
+  font-family: 'Courgette', cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 1.5rem;
+  line-height: 1.6;
+  opacity: 0;
+  animation: textSlideIn 2s 0.5s forwards;
+}
+
+@keyframes textSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bubbles-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.bubble {
+  position: absolute;
+  right: 0;
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: moveBubble 15s linear forwards;
+}
+
+@keyframes moveBubble {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateX(-60vw) translateY(-10px) rotate(45deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(-80vw) translateY(-30px) rotate(90deg);
+    opacity: 0;
+  }
+}

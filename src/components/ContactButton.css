@@ -1,0 +1,25 @@
+.contact-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-label {
+  margin-bottom: 5px;
+  font-size: 58px;
+  color: white;
+  text-align: center;
+}
+.butterfly-animation {
+  width: 400px;
+  height: 400px;
+}
+.footer-butterfly-small .butterfly-animation {
+  width: 180px;
+  height: 180px;
+}
+.footer-butterfly-small .contact-label {
+  font-size: 35px;
+  margin-bottom: -10px;
+}

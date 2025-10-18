@@ -1,0 +1,103 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#root,
+.app-container {
+  padding: 0 20px;
+  min-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Great Vibes', cursive;
+  margin: 0;
+  height: 100%;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  background: radial-gradient(
+      circle at 25% 30%,
+      rgba(180, 120, 255, 0.7),
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at 70% 40%,
+      rgba(255, 120, 200, 0.6),
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at 50% 75%,
+      rgba(200, 150, 255, 0.5),
+      transparent 70%
+    ),
+    /* белые мягкие пятна */
+      radial-gradient(
+        circle at 40% 50%,
+        rgba(255, 255, 255, 0.6),
+        transparent 60%
+      ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(255, 255, 255, 0.4),
+      transparent 60%
+    );
+
+  background-blend-mode: screen;
+  animation: moveBlobs 25s infinite alternate ease-in-out;
+  z-index: -1;
+}
+
+@keyframes moveBlobs {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-5%, 5%) scale(1.1);
+  }
+  100% {
+    transform: translate(5%, -5%) scale(1.05);
+  }
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 2px solid white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
