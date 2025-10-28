@@ -13,7 +13,6 @@ html {
 #root,
 .app-container {
   padding: 0 20px;
-  min-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
@@ -100,4 +99,36 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+@-moz-document url-prefix() {
+  @media (max-width: 1024px) {
+    .hero-container,
+    .about-section,
+    .works-section {
+      height: auto !important;
+      padding-top: 20% !important;
+      padding-bottom: 5% !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-container,
+    .about-section,
+    .works-section {
+      height: auto !important;
+      padding-top: 20% !important;
+      padding-bottom: 7% !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-container,
+    .about-section,
+    .works-section {
+      height: auto !important;
+      padding-top: 20% !important;
+      padding-bottom: 10% !important;
+    }
+  }
 }

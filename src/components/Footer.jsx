@@ -39,7 +39,7 @@ export default function Footer({ onContactClick }) {
       </div>
 
       <div className="footer-copy">
-        © {new Date().getFullYear()} Your Name. All rights reserved.
+        © {new Date().getFullYear()} Iryna Harita. All rights reserved.
       </div>
     </footer>
   )

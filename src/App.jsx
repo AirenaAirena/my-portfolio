@@ -14,25 +14,25 @@ function App() {
     {
       title: 'Projekt 1',
       description: 'About 1',
-      img: 'https://via.placeholder.com/600x400',
+      // img: 'https://via.placeholder.com/600x400',
       link: 'https://example.com/project1',
     },
     {
       title: 'Projekt 2',
       description: 'About 2',
-      img: 'https://via.placeholder.com/600x400',
+      // img: 'https://via.placeholder.com/600x400',
       link: 'https://example.com/project2',
     },
     {
       title: 'Projekt 3',
       description: 'About 3',
-      img: 'https://via.placeholder.com/600x400',
+      // img: 'https://via.placeholder.com/600x400',
       link: 'https://example.com/project3',
     },
     {
       title: 'Projekt 4',
       description: 'About 3',
-      img: 'https://via.placeholder.com/600x400',
+      // img: 'https://via.placeholder.com/600x400',
       link: 'https://example.com/project3',
     },
   ]
@@ -43,20 +43,8 @@ function App() {
       {/* Hero  */}
       <Hero />
 
-      {/* About  */}
-      <section
-        style={{
-          minHeight: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          textAlign: 'center',
-          color: 'white',
-          padding: '0 20px',
-        }}
-      >
-        <About />
-      </section>
+      <About />
+      {/* </section> */}
 
       <Works works={works} />
 

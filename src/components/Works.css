@@ -48,12 +48,71 @@
 .work-card:nth-child(4) {
   z-index: 4;
 }
-
-/* ---------------- */
 .work-card:not(:last-child) {
   margin-bottom: 100px;
 }
 
 .work-card:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .works-section {
+    padding: 40px 10px 20px;
+  }
+
+  .work-card {
+    position: static;
+    width: 90%;
+    margin: 0 auto 40px;
+  }
+  .work-card:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 761px) {
+  .works-section {
+    position: relative;
+    height: calc(100px + 4 * (400px + 100px));
+    padding: 60px 20px;
+  }
+
+  .work-card {
+    position: sticky;
+    top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .work-card:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .works-section {
+    overflow-x: hidden;
+    padding: 40px 10px 20px;
+  }
+
+  .work-card {
+    position: static;
+    width: 90%;
+    margin: 0 auto 40px;
+  }
+  .work-card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-card {
+    width: 100%;
+  }
+  .work-content img {
+    border-radius: 6px;
+  }
+  .work-content h3 {
+    font-size: 1.2rem;
+  }
 }

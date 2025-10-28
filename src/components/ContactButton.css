@@ -12,14 +12,35 @@
   text-align: center;
 }
 .butterfly-animation {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 .footer-butterfly-small .butterfly-animation {
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
 }
 .footer-butterfly-small .contact-label {
   font-size: 35px;
   margin-bottom: -10px;
+}
+@media (max-width: 768px) {
+  .contact-label {
+    font-size: 40px;
+  }
+
+  .butterfly-animation {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-label {
+    font-size: 28px;
+  }
+
+  .butterfly-animation {
+    max-width: 150px;
+  }
 }

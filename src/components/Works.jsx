@@ -1,24 +1,11 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef } from 'react'
 import './Works.css'
 
 export default function Works({ works }) {
   const sectionRef = useRef(null)
-  const [sectionHeight, setSectionHeight] = useState('auto')
-
-  useEffect(() => {
-    const cardHeight = 400
-    const gap = 100
-    const topOffset = 100
-    setSectionHeight(topOffset + works.length * (cardHeight + gap) - gap)
-  }, [works])
 
   return (
-    <section
-      id="works"
-      ref={sectionRef}
-      className="works-section"
-      style={{ height: sectionHeight }}
-    >
+    <section id="works" ref={sectionRef} className="works-section">
       {works.map((work, index) => (
         <div className="work-card" key={index} style={{ zIndex: index + 1 }}>
           <div className="work-content">

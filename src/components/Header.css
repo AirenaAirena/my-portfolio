@@ -133,3 +133,56 @@
     transform: rotate(1deg);
   }
 }
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  .burger {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .burger-letter {
+    font-size: 28px;
+  }
+
+  .menu-overlay button,
+  .contact-menu-button {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    padding: 8px 15px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .burger {
+    width: 35px;
+    height: 35px;
+  }
+
+  .burger-letter {
+    font-size: 24px;
+  }
+
+  .menu-overlay {
+    gap: 15px;
+  }
+
+  .menu-overlay button,
+  .contact-menu-button {
+    font-size: 2rem;
+  }
+}

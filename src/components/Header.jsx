@@ -14,7 +14,6 @@ export default function Header({ onOpenContactform }) {
   return (
     <>
       <header className="site-header">
-        {/* Логотип слева */}
         <a href="#home" className="logo">
           I.Harita
         </a>
