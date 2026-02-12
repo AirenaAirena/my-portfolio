@@ -19,6 +19,7 @@ It presents my skills, selected projects, and contact information in a modern an
 
 This website is deployed on **GitHub Pages** for easy public access.  
 To view it online:
+Click here to view the live webseite  https://airenaairena.github.io/my-portfolio/
 
 ## 🛠️ Technologies Used
 
