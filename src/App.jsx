@@ -15,7 +15,7 @@ function App() {
       title: 'UrbanNest',
       description:
         'Responsive apartment search landing page with filtering and modal components.',
-      // img: 'https://via.placeholder.com/600x400',
+
       link: ' https://airenaairena.github.io/portfolio-LP/',
     },
 

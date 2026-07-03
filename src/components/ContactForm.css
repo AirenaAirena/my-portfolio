@@ -116,7 +116,9 @@
   font-size: 1rem;
   color: #fff;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .feather-btn:hover {
@@ -136,7 +138,7 @@
 .close-btn:hover {
   color: #ffb6c1;
 }
-/* 🔴 Error*/
+/*  Error*/
 input.error,
 textarea.error {
   border: 1px solid #ff6b6b;
