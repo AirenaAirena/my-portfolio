@@ -23,7 +23,7 @@ function App() {
       title: 'Pflanzen Finder',
       description:
         'Mobile-first plant identifier app. Scan a plant with camera and get name, family, genus and description. Built with React and two APIs — Plant.id and Perenual.',
-      img: '/pflanzen.png',
+      img: `${import.meta.env.BASE_URL}pflanzen.png`,
       link: 'https://airenaairena.github.io/Pflanzen-finder/',
     },
 
