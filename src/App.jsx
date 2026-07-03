@@ -18,12 +18,15 @@ function App() {
       // img: 'https://via.placeholder.com/600x400',
       link: ' https://airenaairena.github.io/portfolio-LP/',
     },
+
     {
-      title: 'Projekt 2',
-      description: 'About 2',
-      // img: 'https://via.placeholder.com/600x400',
-      link: 'https://example.com/project2',
+      title: 'Pflanzen Finder',
+      description:
+        'Mobile-first plant identifier app. Scan a plant with camera and get name, family, genus and description. Built with React and two APIs — Plant.id and Perenual.',
+      img: '/pflanzen.png',
+      link: 'https://airenaairena.github.io/Pflanzen-finder/',
     },
+
     {
       title: 'Projekt 3',
       description: 'About 3',
