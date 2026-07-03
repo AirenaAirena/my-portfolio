@@ -5,7 +5,7 @@ It presents my skills, selected projects, and contact information in a modern an
 
 ---
 
-## ✨ Features
+##  Features
 
 - Built with **React** and modern CSS (including animations)
 - Fully **responsive** for desktop and mobile devices
@@ -15,13 +15,13 @@ It presents my skills, selected projects, and contact information in a modern an
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 This website is deployed on **GitHub Pages** for easy public access.  
 To view it online:
 Click here to view the live webseite  https://airenaairena.github.io/my-portfolio/
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **React.js**
 - **HTML5 / CSS3**
