@@ -16,7 +16,7 @@ function App() {
       description:
         'Responsive apartment search landing page with filtering and modal components.',
       img: `${import.meta.env.BASE_URL}my-second-project.png`,
-      link: ' https://airenaairena.github.io/portfolio-LP/',
+      link: 'https://airenaairena.github.io/portfolio-LP/',
     },
 
     {
@@ -27,18 +27,19 @@ function App() {
       link: 'https://airenaairena.github.io/Pflanzen-finder/',
     },
 
-    {
-      title: 'Projekt 3',
-      description: 'About 3',
-      // img: 'https://via.placeholder.com/600x400',
-      link: 'https://example.com/project3',
-    },
-    {
-      title: 'Projekt 4',
-      description: 'About 3',
-      // img: 'https://via.placeholder.com/600x400',
-      link: 'https://example.com/project3',
-    },
+    // TODO: добавить реальные проекты 3 и 4, когда будут готовы
+    // {
+    //   title: 'Projekt 3',
+    //   description: 'About 3',
+    //   img: 'https://via.placeholder.com/600x400',
+    //   link: 'https://example.com/project3',
+    // },
+    // {
+    //   title: 'Projekt 4',
+    //   description: 'About 3',
+    //   img: 'https://via.placeholder.com/600x400',
+    //   link: 'https://example.com/project3',
+    // },
   ]
 
   return (
