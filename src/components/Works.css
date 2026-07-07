@@ -1,6 +1,6 @@
 .works-section {
   position: relative;
-  height: calc(100px + 4 * (400px+100px));
+  height: calc(100px + 4 * (400px + 100px));
   padding: 60px 20px;
 }
 
@@ -116,3 +116,4 @@
     font-size: 1.2rem;
   }
 }
+
