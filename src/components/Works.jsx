@@ -5,7 +5,12 @@ export default function Works({ works }) {
   const sectionRef = useRef(null)
 
   return (
-    <section id="works" ref={sectionRef} className="works-section">
+    <section
+      id="works"
+      ref={sectionRef}
+      className="works-section"
+      style={{ '--work-count': works.length }}
+    >
       {works.map((work, index) => (
         <div className="work-card" key={index} style={{ zIndex: index + 1 }}>
           <div className="work-content">

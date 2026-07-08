@@ -101,7 +101,7 @@ a:hover {
   text-decoration: none;
 }
 
-@-moz-document url-prefix() {
+/* @-moz-document url-prefix() {
   @media (max-width: 1024px) {
     .hero-container,
     .about-section,
@@ -131,4 +131,4 @@ a:hover {
       padding-bottom: 10% !important;
     }
   }
-}
+} */

@@ -1,6 +1,6 @@
 .works-section {
   position: relative;
-  height: calc(100px + 4 * (400px + 100px));
+  height: calc(100px + var(--work-count) * (400px + 100px));
   padding: 60px 20px;
 }
 
@@ -23,10 +23,15 @@
 
 .work-content img {
   width: 220px;
+  max-width: 100%;
   height: 120px;
   object-fit: contain;
 }
-
+.work-content p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 12px;
+}
 .work-content a {
   display: inline-block;
   margin-top: 10px;
@@ -56,41 +61,11 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 760px) {
-  .works-section {
-    padding: 40px 10px 20px;
-  }
-
-  .work-card {
-    position: static;
-    width: 90%;
-    margin: 0 auto 40px;
-  }
-  .work-card:last-child {
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 761px) {
-  .works-section {
-    position: relative;
-    height: calc(100px + 4 * (400px + 100px));
-    padding: 60px 20px;
-  }
-
-  .work-card {
-    position: sticky;
-    top: 100px;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 100px;
-  }
-
-  .work-card:last-child {
-    margin-bottom: 0;
-  }
-}
 @media (max-width: 768px) {
   .works-section {
+    position: relative;
+    height: unset;
+    padding: 60px 20px;
     overflow-x: hidden;
     padding: 40px 10px 20px;
   }
