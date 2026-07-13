@@ -15,7 +15,7 @@ export default function Header({ onOpenContactform }) {
     <>
       <header className="site-header">
         <a href="#home" className="logo">
-          I.Harita
+          Iryna K.
         </a>
 
         <button className="burger" onClick={() => setIsOpen(!isOpen)}>

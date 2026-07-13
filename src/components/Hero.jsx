@@ -52,7 +52,7 @@ export default function Hero() {
   return (
     <section id="home" className="hero-container">
       <div className="hero-left">
-        <h1 className="hero-line">Hi! My name is Irina Harita.</h1>
+        <h1 className="hero-line">Hi! My name is Iryna .</h1>
         <p className="hero-block">
           I am a frontend developer. I create modern, user-friendly web
           applications, combining functionality with beautiful interfaces. I
